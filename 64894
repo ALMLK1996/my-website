@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Super Browser</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- واجهة الموقع -->
+  <header class="hero-section">
+    <div class="profile-wrapper">
+    <img src="assets/images/your-image.png" alt="صورة المطور" class="profile-img">
+    </div>
+
+    <h1 class="book-title">Abd almlk</h1>
+    <h2 class="rgb-title">Super Browser</h2>
+
+    <div class="vertical-buttons">
+      <a href="#services" class="neon-button one">✨ ابدأ التجربة</a>
+      <a href="#about" class="neon-button two">📘 من نحن</a>
+      <a href="#tools" class="neon-button three">🛠 أدواتنا</a>
+      <a href="#contact" class="neon-button four">📞 تواصل معنا</a>
+    </div>
+  </header>
+</header>
+  </header>
+
+<!-- قسم من نحن -->
+
+<section id="about">
+  <h2>من نحن</h2>
+  <p>نحن نعمل في مجال برمجة وتطوير مواقع الويب، ونتميز بصناعة أكواد احترافية تدمج بين الإبداع والدقة.</p>
+  <p>هدفنا هو تحويل الأفكار إلى تجارب رقمية متكاملة، من خلال تصميمات عصرية وتفاعلية تناسب جميع الأجهزة.</p>
+</section>
+
+  <!-- قسم الخدمات --><section id="services">
+  <h2>خدماتنا</h2>
+  <div class="vertical-buttons">
+    <a class="neon-button one">🧠 تطوير مواقع الشركات <span class="badge">جديد</span></a>
+    <a class="neon-button two">🤖 ذكاء صناعي <span class="badge">مميز</span></a>
+    <a class="neon-button three">🎨 تصميم واجهات المستخدم <span class="badge">الأكثر استخدامًا</span></a>
+    <a class="neon-button four">🧩 استشارات تقنية</a>
+  </div>
+  
+  </section>
+
+
+<section id="tools">
+  <h2>أدواتنا</h2>
+  <div class="vertical-buttons">
+    <a class="neon-button two">🐙 GitHub <span class="badge">مميز</span></a>
+    <a class="neon-button four">🧠 VSCode</a>
+    <a class="neon-button three">🐍 Python <span class="badge">الأكثر استخدامًا</span></a>
+    <a class="neon-button one">⚛️ React</a>
+  </div>
+</section>
+
+  <!-- قسم رؤيتنا -->
+  <section id="vision">
+    <h2>رؤيتنا</h2>
+    <p>توفير تجربة تصفح خالية من الإعلانات وأكثر خصوصية</p>
+  </section>
+
+  <!-- قسم انضم إلينا -->
+  <section id="join">
+    <h2>انضم إلينا</h2>
+    <p>نبحث عن مطورين ومصممين للانضمام إلى فريقنا</p>
+    <p>أرسل سيرتك الذاتية إلى البريد الإلكتروني التالي:</p>
+    <a href="mailto:joinus@superbrowser.com" class="glow-btn">joinus@superbrowser.com</a>
+  </section>
+
+  <!-- قسم الروابط السريعة -->
+  <section id="buttons">
+    <h2>روابط سريعة</h2>
+    <div class="button-group">
+      <a href="https://github.com/yourusername" target="_blank" class="btn">GitHub</a>
+      <a href="https://wa.me/yourwhatsapplink" target="_blank" class="btn">واتساب</a>
+      <a href="mailto:your@email.com" class="btn">البريد الإلكتروني</a>
+      <a href="assets/cv.pdf" class="btn">تحميل CV</a>
+      <a href="#top" class="btn">↑ العودة للأعلى</a>
+    </div>
+  </section>
+
+  <!-- قسم التواصل -->
+  <section id="contact">
+    <h2>تواصل معنا</h2>
+    <p>تابعنا على وسائل التواصل الاجتماعي</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/share/p/14XGagPuiyY/" target="_blank" class="icon facebook" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.3l-.4 3h-1.9v7A10 10 0 0 0 22 12z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/abdo040" target="_blank" class="icon instagram" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3h10zm-5 3a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm4.5-.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- الفوتر -->
+  <footer>
+    <p>© 2025 جميع الحقوق محفوظة لـ Super Browser</p>
+  </footer>
+
+  <!-- الصوت والمؤثرات -->
+  <audio id="click-sound" src="assets/sounds/click.mp3" preload="auto"></audio>
+  <audio id="bg-music" src="assets/sounds/bg-music.mp3" loop preload="auto"></audio>
+
+  <script>
+    const clickSound = document.getElementById("click-sound");
+    document.querySelectorAll(".btn, .glow-btn, .cta").forEach(btn => {
+      btn.addEventListener("click", () => {
+        clickSound.currentTime = 0;
+        clickSound.play();
+      });
+    });
+
+    const music = document.getElementById("bg-music");
+    const toggleMusic = document.getElementById("toggle-music");
+    const startExperience = document.getElementById("start-experience");
+
+  
